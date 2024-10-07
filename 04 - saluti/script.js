@@ -4,9 +4,16 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+const greet = (names) => { 
+// function greet(name) {
+    return "ciao" +" " +  names;
+    
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+const greeting = greet("Mario");
+console.log(greeting);
+
 
 
 

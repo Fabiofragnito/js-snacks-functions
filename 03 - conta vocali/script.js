@@ -4,7 +4,9 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-function getString(word) {
+
+// function getString(word) {
+    const getString = (word) =>{ 
     let vocals = ["a","e","i","o","u"];
     let arrayVocals = [];
     for (let i = 0; i < word.length; i++) {
