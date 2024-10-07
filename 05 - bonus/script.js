@@ -9,7 +9,9 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+const greet = (names) => { 
+const currentHour = new Date().getHours();
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
