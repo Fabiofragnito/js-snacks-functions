@@ -9,11 +9,24 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-const greet = (names) => { 
+const greet = (name) => { 
 const currentHour = new Date().getHours();
+if (currentHour < 13){
+    greeting = "buongiorno"
+} else if( currentHour < 17){
+    greeting = "buon pomeriggio"
+}
+ else {
+    greeting = "buonasera"
+ }
+ return `${greeting} ${name}`
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+
+const message = greet(name);
+console.log(message);
+
 
 
 
