@@ -4,9 +4,24 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
+function getString(word) {
+    let vocals = ["a","e","i","o","u"];
+    let arrayVocals = [];
+    for (let i = 0; i < word.length; i++) {
+        if (vocals.includes(word[i])) { 
+            arrayVocals.push(word[i]);
+        }
+        
+    }
+    return arrayVocals;
+    
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
+const arrayVocals = getString(word);
+console.log(arrayVocals);
+
 
 
 
