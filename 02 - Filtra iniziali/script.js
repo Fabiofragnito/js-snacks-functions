@@ -6,10 +6,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // Dichiara la funzione qui.
 
 // function getString(names, letter) {
-    const getString = (names,letter) =>{ 
+    const getString = (array, char) =>{ 
     let filteredString = [];
-    for (let i = 0; i < names.length; i++) {
-        if (names[i][0] === letter) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i][0] === char) {
             filteredString.push(names[i]);
         }
         
@@ -19,8 +19,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 }
 // Invoca la funzione qui e stampa il risultato in console
-const filteredString = getString(names, "L");
-console.log(filteredString);
+// const filteredString = getString(names, "L");
+console.log(getString(names, "L"));
 
 
 

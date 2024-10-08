@@ -11,6 +11,8 @@ const name = 'Mario';
 // Dichiara la funzione qui.
 const greet = (name) => { 
 const currentHour = new Date().getHours();
+console.log(currentHour);
+
 if (currentHour < 13){
     greeting = "buongiorno"
 } else if( currentHour < 17){

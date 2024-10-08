@@ -23,8 +23,8 @@ const getInitials = (names) =>{
 
 // Invoca la funzione qui e stampa il risultato in console
 
-const initials = getInitials(names);
-console.log(initials);
+// const initials = getInitials(names);
+console.log(getInitials(names));
 
 
 
